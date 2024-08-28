@@ -40,7 +40,7 @@ def game():
             wrong += 1
 
     if word == "".join(current):
-        print(f"{anims[wrong]}\n{"".join(current)}\nYou won")
+        print(f"{anims[wrong]}\n{''.join(current)}\nYou won")
     
     if wrong == len(anims)-1:
         print(f"{anims[len(anims)-1]}\nYou lost\nWord: {word}")
